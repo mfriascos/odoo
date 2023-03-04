@@ -8,5 +8,10 @@
     'maintainer': 'Mario Fernando Riascos',
     'website': 'mfriascos.github.io',
     'license': 'AGPL-3',
-    'depends': ['base']
+    'depends': ['base'], 
+    'data': [
+        'security/ir.model.access.csv',
+        'views/estate_property_views.xml',
+    ],
+    'application': True,
 }
