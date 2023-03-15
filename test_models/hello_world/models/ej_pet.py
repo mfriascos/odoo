@@ -3,6 +3,7 @@ from odoo import api, fields, models
 
 class EjPet(models.Model):
     _name = 'ej.pet'
+    _description = 'Pet Store Ej Pet'
 
     name = fields.Char(string='name', required=True)
     age = fields.Integer(string='age',required=True)
